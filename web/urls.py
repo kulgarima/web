@@ -1,4 +1,3 @@
-#Urls.py managing urls of web application
 from django.contrib import admin
 from django.urls import include, path
 
