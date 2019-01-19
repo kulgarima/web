@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 from .models import Album
+from django.shortcuts import render
 
 def index(request):
         all_albums = Album.objects.all()
